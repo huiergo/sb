@@ -1,0 +1,420 @@
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.storybook-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.storybook-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.storybook-button--hor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+
+.storybook-button--ver{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.custom-button {
+  background   : #F7F7F7;
+  border       : 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 48px;
+  width        : 424px;
+  height       : 96px;
+  border-radius: 48px;
+  margin       : 0 auto;
+
+  font-family: PingFangSC-Regular;
+  font-size  : 28px;
+  color      : #333333;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  position: fixed;
+  bottom: 43px;
+  left: 0;
+  right: 0;
+}
+
+.custom-img{
+  display: inline-block;
+  width: 48px;
+  height: auto;
+  margin-right: 22.5px;
+}
+.empty-default {
+  width          : 100%;
+  height         : 100vh;
+  display        : flex;
+  flex-direction: column;
+  align-items    : center;
+  justify-content: center;
+}
+
+.empty-default__text {
+  margin-top : 22px;
+  font-size  : 12px;
+  line-height: 17px;
+  color      : #666666;
+  font-weight: bold;
+  text-align : center;
+}
+
+.empty-default__img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+section {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.tip {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.tip-wrapper {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tip-wrapper svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.tip-wrapper svg path {
+  fill: #1ea7fd;
+}
+
+.table {
+  width: 300px;
+}
+
+.table__header {
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  height          : 80px;
+  font-family     : PingFangSC-Regular;
+  font-size       : 24px;
+  color           : #999999;
+}
+
+.table__header,
+.table__line {
+   width: 100%;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items    : center;
+}
+
+
+.table__line {
+  background: #FFFFFF;
+  width     : 750px;
+  height    : 100px;
+  border-top: 2px solid #F7F7F7;
+}
+
+
+.table__line-0,.table__line-1,.table__line-2 {
+  background: rgba(248,251,253);
+}
+
+.table__header-item,
+.table__col {
+  width     : 150px;
+  text-align: center
+}
+
+.table__header-item-0 {
+  width       : 300px;
+  text-align  : left;
+  padding-left: 32px;
+}
+
+.table__col-0 {
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  align-items    : center;
+  padding-left   : 32px;
+}
+
+.table__col {
+  font-family: Akrobat-ExtraBold;
+  font-size  : 30px;
+  color      : #222222;
+}
+
+.table__col-player{
+  font-family: PingFangSC-Regular;
+  font-size: 28px;
+  color: #333333;
+}
+
+.table__rank {
+  font-size  : 28px;
+  color      : #6BABDE;
+  font-family: PingFangSC-Medium;
+}
+
+.table__logo {
+  display      : inline-block;
+  width        : 48px;
+  height       : 48px;
+  border-radius: 48px;
+  margin-left  : 16px;
+  margin-right : 16px;
+}
+
+.table__name {
+  font-family: PingFangSC-Regular;
+  font-size  : 28px;
+  color      : #333333;
+}
+.tab {
+  border-bottom  : 1px#EDEDED solid;
+  padding        : 0 32px;
+  height         : 78px;
+  width          : 300px;
+  margin-top     : 20px;
+  font-family    : PingFangSC-Regular;
+  font-size      : 32px;
+  color          : #333333;
+  line-height    : 46px;
+  flex-direction : row;
+  align-items    : center;
+  position       : static;
+  display        : flex;
+  justify-content: center;
+}
+
+.tab-item {
+  flex           : 1 1;
+  position       : relative;
+  height         : 100%;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.tab--active {
+  font-family: PingFangSC-Semibold;
+  font-size  : 32px;
+  color      : #333333;
+  line-height: 46px;
+}
+
+.tab--active-bar {
+  position       : absolute;
+  bottom         : 0;
+  left           : 0;
+  width          : 100%;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.tab--active-bar-inner {
+  height    : 4px;
+  width     : 24px;
+  background: #333333;
+}
+.as-tags {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    align-items    : center;
+    width          : 100%;
+    flex-wrap      : wrap;
+}
+
+.as-tags__normal-item {
+    display        : inline-flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+    margin-bottom         : 8px;
+    margin-right: 6px;
+    background     : #fff;
+    color          : #999;
+    border: 2px solid rgba(0,0,0,0.08);
+    font-size      : 20px;
+    line-height: 28px;
+    border-radius  : 4px;
+    padding: 6px 20px;
+    font-family: PingFangSC-Semibold;
+}
+
+.as-tags__coupon-item {
+    display        : inline-flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+    margin-bottom         : 8px;
+    margin-right: 6px;
+    background     : #fff;
+    color          : #FF6022;
+    border         : 2px solid rgba(255,96,34,0.3);
+    font-size      : 20px;
+    border-radius  : 4px;
+    font-family: PingFangSC-Regular;
+}
+
+.as-tags__coupon-item-prex {
+    display      : inline-block;
+    border-right :  2px solid rgba(255,96,34,0.3);
+    padding: 6px 12px;
+
+    background   : rgba(255, 96, 33, 0.1);
+    font-size      : 20px;
+    line-height: 28px;
+}
+
+.as-tags__coupon-item-name {
+    display      : inline-block;
+        padding: 6px 12px;
+    font-size      : 20px;
+    line-height: 28px;
+}
+
+/*# sourceMappingURL=main.3f0f6850.chunk.css.map*/

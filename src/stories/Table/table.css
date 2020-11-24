@@ -1,0 +1,87 @@
+.table {
+  width: 300px;
+}
+
+.table__header {
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  height          : 80px;
+  font-family     : PingFangSC-Regular;
+  font-size       : 24px;
+  color           : #999999;
+}
+
+.table__header,
+.table__line {
+   width: 100%;
+  display        : flex;
+  flex-direction : row;
+  justify-content: space-between;
+  align-items    : center;
+}
+
+
+.table__line {
+  background: #FFFFFF;
+  width     : 750px;
+  height    : 100px;
+  border-top: 2px solid #F7F7F7;
+}
+
+
+.table__line-0,.table__line-1,.table__line-2 {
+  background: rgba(248,251,253);
+}
+
+.table__header-item,
+.table__col {
+  width     : 150px;
+  text-align: center
+}
+
+.table__header-item-0 {
+  width       : 300px;
+  text-align  : left;
+  padding-left: 32px;
+}
+
+.table__col-0 {
+  display        : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  align-items    : center;
+  padding-left   : 32px;
+}
+
+.table__col {
+  font-family: Akrobat-ExtraBold;
+  font-size  : 30px;
+  color      : #222222;
+}
+
+.table__col-player{
+  font-family: PingFangSC-Regular;
+  font-size: 28px;
+  color: #333333;
+}
+
+.table__rank {
+  font-size  : 28px;
+  color      : #6BABDE;
+  font-family: PingFangSC-Medium;
+}
+
+.table__logo {
+  display      : inline-block;
+  width        : 48px;
+  height       : 48px;
+  border-radius: 48px;
+  margin-left  : 16px;
+  margin-right : 16px;
+}
+
+.table__name {
+  font-family: PingFangSC-Regular;
+  font-size  : 28px;
+  color      : #333333;
+}
